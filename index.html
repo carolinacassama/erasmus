@@ -1,0 +1,152 @@
+<!doctype html>
+<html>
+
+<head>
+<title>CarolinaCassamá</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="CSS/mystyle.css">
+    
+    
+</head>
+<!---Content starts here -->
+<body>
+    <header>
+        <nav id="tabletPC" class="col-3">
+            <a href="#unordered"> A Minha Pessoa </a>
+            <a href="#ordered"> Uma Nova Casa</a>
+            <a href="#color"> Memórias</a>
+            <a href="#video"> Pessoas</a>
+            <a href="#table"> Localizações</a>
+            </nav>
+        <a id="menu_icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+            <path d="M2 6h20v3H2zm0 5h20v3H2zm0 5h20v3H2z" fill="white"/>
+            </svg>
+            </a>
+        <div id="drawer">
+            <nav>
+            <a href="#unordered"> A Minha Pessoa</a>
+            <a href="#ordered"> Uma Nova Casa</a>
+            <a href="#color"> Memórias</a>
+            <a href="#video"> Pessoas</a>
+            <a href="#table"> Localizações</a>
+            </nav>
+            </div>
+
+<h1>Erasmus</h1>
+<p>Bélgica - 2020</p>
+<hr>
+    </header>
+     <nav class="col-3">
+<a href="#unordered"> A Minha Pessoa</a>
+<br>
+<a href="#ordered"> Uma Nova Casa</a>
+<br>
+<a href="#color"> Memórias</a>
+<br>
+<a href="#video"> Pessoas</a>
+<br>
+<a href="#table"> Localizações</a>
+     </nav>
+
+<a name="unordered"></a>
+<h2> A Minha Pessoa </h2>
+<i><br>Bem-Vindo! Antes demais o meu nome é Carolina Cassamá, tenho 22 anos e sou aluna universitária da Escola Superior de Educação de Lisboa, do curso de Artes Visuais e Tecnologias. Sempre fui muito curiosa e garantidamente que uma das coisas que mais ambiciono é sem dúvida alguma,a independência.
+     Sendo que surgiu a oportunidade de realizar Erasmus através da ESELx, candidatei-me ao programa e fiquei entusiasmada relativamente ao facto de ir viajar e viver durnate 6 meses fora de casa. <br>
+     Sendo que elegi como destino, a Bélgica.
+        
+<img src =
+
+"gorro.jpg">
+     
+</ul>
+
+<a name="ordered"></a>
+<h2> Uma Nova Casa </h2>
+<i>  Um sítio novo, para criar memórias. Quase que acaba por ser a nossa primeira casa e inevitavelmente o valor sentimental fica instaurado. </i>
+
+<img src =
+
+"casa.JPG"> 
+
+<img src =
+
+"cas_2.JPG">
+
+
+</ol>
+
+<a name="color"></a>
+<h2> Memórias</h2>
+<p> Um registo de algumas das memórias que foram vividas e criadas ao longo destes 6 meses, num país totalmentte desconhecido. </p>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/yjsbqgv5U7g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ZRxDD8kx7bs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+</ol>
+
+<a name="video"></a>
+<h2> Pessoas</h2>
+<p> O fator que irá potencializar a tua viagem, a tua experiencia, a tua aventura vão ser as pessoas! Agarra bem com as duas maõs e desfruta ao máximo das pessoas que tens ao teu alcance, enquanto estás fora. </p>
+
+<img src =
+
+"meninas.png">
+
+<img src =
+
+"meninas_2.JPG">
+
+<img src =
+
+"escadas.JPG">
+
+<img src =
+
+"grupo.HEIC">
+
+<h2> Localizações</h2>
+
+<table border="1px">
+    <th colspan="3"> Localizações</th>
+    <tr>
+    <td> A visitar </td> <td> Locais </td>
+    </tr>
+    <tr>
+    <td rowspan="4"> Museu do Chocolate</td>
+    <td rowspan="3"> Antuérpia</td>
+    </table>
+    <div id=“container” class="col-9"> 
+        <section>
+        <a name="unordered">
+        <h2> Mais Sítios </h2>
+        <p>Mais sítios que serão imprescinsíveis de ir são:</p>
+        <ul> <li> Bruxelas, </li> <li> Gent,</li> <li> Lille,</li> <li> Bruges </li>
+        </ul><li> Mechelen, entre outra vilas como, Herentals e Grobbendonk. </li> </section>
+    </div>
+    <aside class="col-2">
+        <h3>Nota</h3>
+        <p>O vídeo "Memória" foi realizado no âmbito da disciplina de Oficina de Artes e Tecnologias</p>
+        </aside>
+        <footer>
+        <h2>Developed by Carolina Cassamá</h2>
+        </footer>
+        
+        <script>
+            let menu_icon = document.querySelector('#menu_icon');
+let container = document.querySelector("#container");
+let drawer = document.querySelector('#drawer');
+menu_icon.addEventListener('click', function (e) {
+drawer.classList.toggle('open');
+e.stopPropagation();
+});
+container.addEventListener('click', function () {
+drawer.classList.remove('open');
+});
+       </script>
+
+</body>
+<!---Content ends here -->
+
+</html>
